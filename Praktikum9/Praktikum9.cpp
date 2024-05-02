@@ -12,4 +12,11 @@ struct Node
 
 Node *START = NULL;
 
-void addNode() {}
+void addNode() {
+    Node* newNode = new Node();
+    cout << "\Enter the roll number of the student: ";
+    cin >> newNode->noMhs;
+    cout << "\Enter the name of the student: ";
+    cin >> newNode->name;
+
+}
